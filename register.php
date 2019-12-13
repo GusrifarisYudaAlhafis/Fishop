@@ -36,7 +36,7 @@ if ($IdUser) {
         <div class="elementForm">
             <label>Nomor HP</label>
             <span>
-                <input type="number" name="hp" value="<?php echo $hp; ?>">
+                <input type="tel" name="hp" value="<?php echo $hp; ?>">
             </span>
         </div>
         <div class="elementForm">
