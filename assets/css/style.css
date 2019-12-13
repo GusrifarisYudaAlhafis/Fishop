@@ -1,0 +1,473 @@
+body {
+    font-family:arial;
+    font-size:12px;
+    color:#1e5474;
+    background:#F7F7F7;
+    margin:0px;
+}
+
+#container {
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#container header {
+    margin-top: 20px;
+}
+
+#container header #menu {
+    background: #1e5474;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+#container header #menu #user {
+    float: left;
+    color: white;
+}
+
+#container header #menu #user a {
+    color: white;
+    padding-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container header #menu #buttonCart {
+    float: right;
+    background: aqua;
+    padding: 2px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#container header #menu #buttonCart img {
+    vertical-align: bottom;
+}
+
+#container footer {
+    background: #1e5475;
+    padding: 10px;
+}
+
+#container footer p {
+    color: white;
+    text-align: right;
+    font-size: 10px;
+    font-style: italic;
+    margin: 0px;
+}
+
+#container #content {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+#containerUserAkses {
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.elementForm {
+    margin-bottom: 15px;
+}
+
+.elementForm label {
+    display: block;
+    font-weight: bold;
+}
+
+.elementForm span {
+    display: block;
+}
+
+.elementForm span input[type="text"],
+.elementForm span input[type="password"],
+.elementForm span input[type="email"],
+.elementForm span input[type="number"],
+.elementForm span textarea,
+.elementForm span select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.elementForm span input[type="submit"] {
+    background: #1e5474;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.elementForm span input[type="submit"]:hover{
+    background: aqua;
+}
+
+.notif {
+    background: #1e5474;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+#bgPageProfile {
+    overflow: hidden;
+}
+
+#menuProfile {
+    float: left;
+    width: 245px;
+    background: #1e5474;
+}
+
+#menuProfile ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menuProfile ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#menuProfile ul li a:hover,
+#menuProfile ul li a.active {
+    background: aqua;
+}
+
+#profileContent {
+    float: left;
+    width: 835px;
+    padding: 10px;
+    background: white;
+}
+
+.tableList {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableList tr {
+    border-bottom: 1px solid #1e5474;
+}
+
+.tableList tr.barisTitle {
+    background: #E6E6E6;
+}
+
+.tableList tr th,
+.tableList tr td  {
+    padding: 10px 7px;
+}
+
+.kolomNo {
+    width: 20px;
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
+
+#frameTambah {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.tombolAction {
+    background: #1e5474;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 9px;
+}
+
+.tombolAction:hover {
+    background: aqua;
+}
+
+#kiri {
+    width: 245px;
+    height: auto;
+    float: left;
+}
+
+#menuKategori ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuKategori ul li {
+    margin-bottom: 5px;
+}
+
+#menuKategori ul li a {
+    display: block;
+    padding: 10px;
+    background: white;
+    color: #1e5474;
+    text-decoration: none;
+}
+
+#menuKategori ul li a:hover,
+#menuKategori ul li a.active {
+    background:#e8e8e8;
+}
+
+#kanan {
+    width: 840px;
+    margin-left: 15px;
+    height: auto;
+    float: left;
+}
+
+#kanan #frameBarang ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#kanan #frameBarang ul li {
+    width: 240px;
+    background: white;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    float: left;
+}
+
+#kanan #frameBarang ul li .price {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#kanan #frameBarang ul li a img {
+    display: block;
+    width: 240px;
+}
+
+#kanan #frameBarang ul li .keteranganGambar {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px 0px;
+    height: 50px;
+}
+
+#kanan #frameBarang ul li .keteranganGambar p {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#kanan #frameBarang ul li .keteranganGambar p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#kanan #frameBarang ul li .keteranganGambar span {
+    display: block;
+    text-align: center;
+}
+
+#kanan #frameBarang ul li .buttonAddCart {
+    text-align: center;
+}
+
+#kanan #frameBarang ul li .buttonAddCart a {
+    background: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#kanan #frameBarang ul li .buttonAddCart a:hover {
+    background: aqua;
+}
+
+#detailBarang {
+    background: white;
+    padding: 15px;
+}
+
+#detailBarang h2 {
+    margin-top: 0px;
+}
+
+#detailBarang #frameGambar {
+    background: #FBFBFB;
+    padding: 20px;
+}
+
+#detailBarang #frameGambar img {
+    display: block;
+    margin: 0px auto;
+}
+
+#detailBarang #frameHarga {
+    margin: 15px 0px;
+}
+
+#detailBarang #frameHarga span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1E5474;
+}
+
+#detailBarang #frameHarga a {
+    background: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    float: right;
+    border-radius: 3px;
+}
+
+#detailBarang #frameHarga a:hover {
+    background: aqua;
+}
+
+#detailBarang #keterangan {
+    margin: 20px 0px;
+}
+
+.totalBarang {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.updateQuantity {
+    width: 30px;
+    text-align: center;
+}
+
+.kanan.hapusItem {
+    position: relative;
+}
+
+.kanan.hapusItem a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: #1e5474;
+}
+
+.kanan.hapusItem a:hover {
+    color: aqua;
+}
+
+#frameButtonKeranjang a {
+    background: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#lanjutBelanja {
+    float: left;
+}
+
+#lanjutPemesanan {
+    float: right;
+}
+
+#frameDataPengiriman {
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#frameDataDetail {
+    float: left;
+    width: 560px;
+}
+
+#frameDetailOrder {
+    border: 1px solid grey;
+}
+
+#frameFormPengiriman {
+    border: 1px solid grey;
+    padding: 25px;
+}
+
+h3.labelDataPengiriman {
+    border: 1px solid grey;
+    padding: 10px 7px;
+    margin: 0px;
+}
+
+#frameTambah #left {
+    float: left;
+}
+
+#frameTambah #right {
+    float: right;
+}
+
+ul.pagination {
+    margin: 10px 0px 0px 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+ul.pagination li {
+    float: left;
+}
+
+ul.pagination li a {
+    margin-right: 10px;
+    border: 1px solid #1E5475;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+ul.pagination li a:hover {
+    font-weight: bold;
+}
+
+ul.pagination li a.active {
+    background: #1E5475;
+    color: white;
+}
+
+.labelPassword {
+    display: flex;
+    justify-content: space-between;
+}
